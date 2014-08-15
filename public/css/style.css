@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Life+Savers:400,700); 
+@import url(http://fonts.googleapis.com/css?family=Miniver);
+
+
+h1 {
+  font-family: 'Live Savers', cursive;
+  font-weight: 700;
+  
+}
+#pick_up_line {
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  width:70%;
+  border-radius: 10px;
+  color: black;
+}
+
+#pick_up_line:hover {
+  color: white;
+}
+
+
+h3 {
+  font-family: 'Miniver', cursive;
+  
+}
+
+#first_h3 {
+  text-decoration: underline;
+}
+
+.text_box {
+  background-color: black;
+  width:80%;
+  height:700 px;
+  opacity:1;
+  border radius: .10 px;
+  text-align: center;
+}
+
+
+body{
+  background-image: url(../images/game_of_thrones_full_map.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color:white;
+  text-align: center;
+}
+
+
+/*
+ 
+header 2 font
+font for line
+background
+hover reveal
+make box for joke for hover reveal
+click to refresh?--> any way to make not a noticeable refresh
+change lovin tip text to pink
