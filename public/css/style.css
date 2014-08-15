@@ -1,13 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Life+Savers:400,700); 
 @import url(http://fonts.googleapis.com/css?family=Maven+Pro);
 @import url(http://fonts.googleapis.com/css?family=Philosopher);
-
+@import url(http://fonts.googleapis.com/css?family=Dosis:300,400);
 h1 {
-  font-family: 'Philosopher', sans-serif
+  font-family: 'Philosopher', sans-serif;
   font-weight: 700;
   font-size: 275%;
 }
-#header {
+
+#title {
   color: #F23FBC;
   font-family: 'Live Savers', cursive;
 }
@@ -43,7 +44,7 @@ h4 {
   text-decoration: underline;
   font-size: 120%;
   color:#D676BE;
-  margin-top: -40px;
+  
   font-family: 'Philosopher', sans-serif;
 }
 
@@ -57,11 +58,14 @@ body{
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Dosis', sans-serif;
+ 
   
 }
 
-
+.footer{
+  text-align: right
+}
 /*
 
 click to refresh?--> any way to make not a noticeable refresh
