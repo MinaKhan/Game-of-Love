@@ -9,7 +9,7 @@ h1 {
 }
 
 #title {
-  color: #F23FBC;
+  color: #E80EA3;
   font-family: 'Live Savers', cursive;
 }
 
@@ -28,7 +28,7 @@ h1 {
 }
 
 #pick_up_line:hover {
-  color: #F23FBC;
+  color: #E80EA3;
   text-opacity:1;
   font-size:90%;
 }
@@ -36,16 +36,15 @@ h1 {
 
 
 h4 {
-  
   font-size: 110%;
 }
 
 #first_h3 {
   text-decoration: underline;
   font-size: 120%;
-  color:#D676BE;
-  
+  color:#F23FBC;
   font-family: 'Philosopher', sans-serif;
+  margin-top: -20px;
 }
 
 #will_bold {
