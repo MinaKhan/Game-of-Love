@@ -29,7 +29,9 @@ class Game_of_Love
     #  pick_up_line
    
   end
-
+  def hover_reveal
+    
+  end
 end
 
 my_line = Game_of_Love.new()

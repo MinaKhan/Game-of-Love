@@ -1,12 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Life+Savers:400,700); 
-@import url(http://fonts.googleapis.com/css?family=Miniver);
-
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+@import url(http://fonts.googleapis.com/css?family=Philosopher);
 
 h1 {
-  font-family: 'Live Savers', cursive;
+  font-family: 'Philosopher', sans-serif
   font-weight: 700;
-  
+  font-size: 275%;
 }
+#header {
+  color: #F23FBC;
+  font-family: 'Live Savers', cursive;
+}
+
 #pick_up_line {
   display: inline-block;
   text-align: center;
@@ -14,47 +19,49 @@ h1 {
   width:70%;
   border-radius: 10px;
   color: black;
+  opacity: 0.6;
+  padding-left: 35px;
+  padding-right:35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #pick_up_line:hover {
-  color: white;
+  color: #F23FBC;
+  text-opacity:1;
+  font-size:90%;
 }
 
 
-h3 {
-  font-family: 'Miniver', cursive;
+
+h4 {
   
+  font-size: 110%;
 }
 
 #first_h3 {
   text-decoration: underline;
+  font-size: 120%;
+  color:#D676BE;
+  margin-top: -40px;
+  font-family: 'Philosopher', sans-serif;
 }
 
-.text_box {
-  background-color: black;
-  width:80%;
-  height:700 px;
-  opacity:1;
-  border radius: .10 px;
-  text-align: center;
+#will_bold {
+  font-weight: 700;
 }
-
 
 body{
   background-image: url(../images/game_of_thrones_full_map.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  color:white;
+  color: white;
   text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+  
 }
 
 
 /*
- 
-header 2 font
-font for line
-background
-hover reveal
-make box for joke for hover reveal
+
 click to refresh?--> any way to make not a noticeable refresh
-change lovin tip text to pink
